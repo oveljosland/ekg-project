@@ -5,7 +5,7 @@
 	(uuid "d672ea38-1e2e-4086-a213-35bc1969a11a")
 	(paper "A4")
 	(title_block
-		(title "Buck Converter for EKG Project")
+		(title "Step-down converter")
 	)
 	(lib_symbols
 		(symbol "2025-02-07_09-07-09:LTC3807EFE-TRPBF"

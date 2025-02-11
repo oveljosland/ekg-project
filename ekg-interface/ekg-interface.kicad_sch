@@ -4,6 +4,11 @@
 	(generator_version "8.0")
 	(uuid "d081a2dd-660d-4fd4-bfb7-925f59137167")
 	(paper "A4")
+	(title_block
+		(title "EKG Interface")
+		(date "2025-02-01")
+		(rev "1.0")
+	)
 	(lib_symbols
 		(symbol "Amplifier_Operational:TL071"
 			(pin_names
