@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "INA126P")(type "KiCad")(uri "/home/ove/School/IELS2003/Downloaded Libraries/INA126P/INA126P.kicad_sym")(options "")(descr ""))
+  (lib (name "SA15CA")(type "KiCad")(uri "/home/ove/School/IELS2003/Downloaded Libraries/SA15CA/SA15CA.kicad_sym")(options "")(descr ""))
+)
