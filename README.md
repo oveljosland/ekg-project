@@ -1,6 +1,6 @@
 # EKG Hardware Project
 
-⚠ Note: This project is a work in progress. Features and documentation may change frequently.
+⚠️ Note: This project is a work in progress. Features and documentation may change frequently.
 
 ## Overview
 This repository contains the design and documentation files for an EKG hardware project in an Electronics Design course. The project includes schematics, PCB layouts, useful scripts, and other design resources created using **KiCad**.
