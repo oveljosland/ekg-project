@@ -4978,7 +4978,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_Bourns_SRP6060FA"
 			(at 193.04 128.27 0)
 			(effects
 				(font
