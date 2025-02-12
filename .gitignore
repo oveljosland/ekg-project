@@ -31,6 +31,5 @@ fp-info-cache
 tests/
 data/
 notes/
-downloaded-libraries/
-footprint-libraries/
+downloaded/
 notes.*

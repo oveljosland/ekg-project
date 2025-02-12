@@ -1010,7 +1010,7 @@
 	(footprint "footprints:AISC-1008F-100G-T"
 		(layer "F.Cu")
 		(uuid "3ddd7a3d-5455-4148-9d51-3a005477cc37")
-		(at 141.9943 88.0091)
+		(at 155.855 102.5)
 		(descr "AISC-1008F-100G-T-2")
 		(tags "Inductor")
 		(property "Reference" "L1"
@@ -3431,7 +3431,7 @@
 	(footprint "footprints:TAZH157J010LBSZ0H00"
 		(layer "F.Cu")
 		(uuid "a6e078bf-69e6-499e-affb-c62a53ed59f7")
-		(at 138.7743 97.2291)
+		(at 143.9 88)
 		(descr "case size H")
 		(tags "Capacitor Polarised")
 		(property "Reference" "Cout1"
@@ -4301,7 +4301,7 @@
 	(footprint "footprints:LTC3807EFE#PBF"
 		(layer "F.Cu")
 		(uuid "cbbd807c-3b75-4824-a857-4ff9a35d6093")
-		(at 138.1243 104.1991)
+		(at 138.1243 98.5)
 		(descr "20-Lead Plastic TSSOP (4.4mm)")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC1"
