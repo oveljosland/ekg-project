@@ -27,9 +27,10 @@ fp-info-cache
 *.xml
 *.csv
 
-# Test and validation data
+# Test and validation data and others
 tests/
 data/
 notes/
 downloaded-libraries/
+footprint-libraries/
 notes.*
