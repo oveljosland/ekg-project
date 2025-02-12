@@ -564,7 +564,7 @@
     },
     "net_format_name": "",
     "page_layout_descr_file": "",
-    "plot_directory": "../images/",
+    "plot_directory": "",
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
     "spice_model_current_sheet_as_root": true,
@@ -576,7 +576,7 @@
   },
   "sheets": [
     [
-      "d672ea38-1e2e-4086-a213-35bc1969a11a",
+      "270a0c1d-99e0-47c8-a788-488ffbf33d34",
       "Root"
     ]
   ],

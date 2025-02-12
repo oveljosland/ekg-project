@@ -13,13 +13,6 @@ This repository contains the design and documentation files for an EKG hardware 
 - `ekg-interface/`- Design files for the EKG interface.
 - `step-down/` - Design files for the step-down converter.
 
-## Schematics
-### EKG Interface
-![EKG Interface Schematic](images/ekg-interface.svg)
-
-### Step-Down Converter
-![Step-Down Converter](images/step-down.svg)
-
 ## Tools Used
 - **KiCad** - Open-source PCB design tool.
 - **LTspice** - Circuit simulation.
