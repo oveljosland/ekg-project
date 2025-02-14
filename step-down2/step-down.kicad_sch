@@ -2293,13 +2293,13 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 124.46) (xy 140.97 129.54)
+			(xy 140.97 124.46) (xy 140.97 133.35)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "20fb09d8-e6ce-45ca-8831-27cb9aa7409f")
+		(uuid "20f84b43-75d1-4769-8f79-ff58bd873f87")
 	)
 	(wire
 		(pts
@@ -2523,7 +2523,7 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 82.55) (xy 233.68 90.17)
+			(xy 233.68 82.55) (xy 233.68 88.9)
 		)
 		(stroke
 			(width 0)
@@ -2643,6 +2643,16 @@
 	)
 	(wire
 		(pts
+			(xy 146.05 125.73) (xy 146.05 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "711337e8-9663-499c-b794-a7d90360bb56")
+	)
+	(wire
+		(pts
 			(xy 203.2 82.55) (xy 203.2 90.17)
 		)
 		(stroke
@@ -2713,7 +2723,7 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 97.79) (xy 233.68 101.6)
+			(xy 233.68 96.52) (xy 233.68 101.6)
 		)
 		(stroke
 			(width 0)
@@ -3093,7 +3103,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 129.54) (xy 146.05 129.54)
+			(xy 140.97 133.35) (xy 146.05 133.35)
 		)
 		(stroke
 			(width 0)
@@ -3639,7 +3649,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 146.05 125.73 0)
+		(at 146.05 129.54 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3647,8 +3657,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "50de3d6b-9895-4d9a-89a7-d7030fa1f27d")
-		(property "Reference" "C1*1"
-			(at 149.86 124.4599 0)
+		(property "Reference" "C4"
+			(at 149.86 128.2699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3656,8 +3666,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C0402S102K5RACTU"
-			(at 149.86 126.9999 0)
+		(property "Value" "1n"
+			(at 149.86 130.8099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3666,7 +3676,7 @@
 			)
 		)
 		(property "Footprint" "C0402"
-			(at 147.0152 129.54 0)
+			(at 147.0152 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3675,7 +3685,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 146.05 125.73 0)
+			(at 146.05 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3684,7 +3694,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 146.05 125.73 0)
+			(at 146.05 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3693,7 +3703,7 @@
 			)
 		)
 		(property "Height" "0.55"
-			(at 154.94 521.92 0)
+			(at 154.94 525.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3703,7 +3713,7 @@
 			)
 		)
 		(property "Mouser Part Number" "80-C0402S102K5R"
-			(at 154.94 621.92 0)
+			(at 154.94 625.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3713,7 +3723,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KEMET/C0402S102K5RACTU?qs=CV4an4nnCD1z917c3mAHAQ%3D%3D"
-			(at 154.94 721.92 0)
+			(at 154.94 725.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3723,7 +3733,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "KEMET"
-			(at 154.94 821.92 0)
+			(at 154.94 825.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3733,7 +3743,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "C0402S102K5RACTU"
-			(at 154.94 921.92 0)
+			(at 154.94 925.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3751,7 +3761,7 @@
 		(instances
 			(project "step-down"
 				(path "/270a0c1d-99e0-47c8-a788-488ffbf33d34"
-					(reference "C1*1")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -4041,7 +4051,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6d5f4c14-ef04-4a44-a510-bd339b6fef96")
-		(property "Reference" "IC3"
+		(property "Reference" "M2"
 			(at 215.9 82.55 0)
 			(effects
 				(font
@@ -4163,7 +4173,7 @@
 		(instances
 			(project "step-down"
 				(path "/270a0c1d-99e0-47c8-a788-488ffbf33d34"
-					(reference "IC3")
+					(reference "M2")
 					(unit 1)
 				)
 			)
@@ -4179,7 +4189,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "75a725ac-102e-40ea-9e3b-c0b0d271fa04")
-		(property "Reference" "C5"
+		(property "Reference" "C6"
 			(at 191.77 60.96 90)
 			(effects
 				(font
@@ -4231,7 +4241,7 @@
 		(instances
 			(project ""
 				(path "/270a0c1d-99e0-47c8-a788-488ffbf33d34"
-					(reference "C5")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -4247,7 +4257,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "840f4497-12ad-462c-8753-c94be3234a89")
-		(property "Reference" "IC2"
+		(property "Reference" "M1"
 			(at 215.9 60.96 0)
 			(effects
 				(font
@@ -4369,7 +4379,7 @@
 		(instances
 			(project ""
 				(path "/270a0c1d-99e0-47c8-a788-488ffbf33d34"
-					(reference "IC2")
+					(reference "M1")
 					(unit 1)
 				)
 			)
@@ -4377,7 +4387,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Schottky")
-		(at 233.68 93.98 90)
+		(at 233.68 92.71 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4386,7 +4396,7 @@
 		(fields_autoplaced yes)
 		(uuid "889d0f60-b84a-4bcf-8320-c07c3b2445c8")
 		(property "Reference" "D2"
-			(at 236.22 93.0274 90)
+			(at 236.22 91.7574 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4395,7 +4405,7 @@
 			)
 		)
 		(property "Value" "CMDSH2-3"
-			(at 236.22 95.5674 90)
+			(at 236.22 94.2974 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4404,7 +4414,7 @@
 			)
 		)
 		(property "Footprint" "footprints:CMDSH2-3_TR_PBFREE"
-			(at 233.68 93.98 0)
+			(at 233.68 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4413,7 +4423,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 233.68 93.98 0)
+			(at 233.68 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4422,7 +4432,7 @@
 			)
 		)
 		(property "Description" "Schottky diode"
-			(at 233.68 93.98 0)
+			(at 233.68 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4455,7 +4465,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8f6adf23-8acb-46f1-9713-b43cd7b5d063")
-		(property "Reference" "C4"
+		(property "Reference" "C5"
 			(at 182.88 106.6799 0)
 			(effects
 				(font
@@ -4509,7 +4519,7 @@
 		(instances
 			(project ""
 				(path "/270a0c1d-99e0-47c8-a788-488ffbf33d34"
-					(reference "C4")
+					(reference "C5")
 					(unit 1)
 				)
 			)
