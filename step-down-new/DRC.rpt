@@ -1,0 +1,25 @@
+** Drc report for step-down.kicad_pcb **
+** Created on 2025-02-16T12:37:58+0100 **
+
+** Found 5 DRC violations **
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(132,2250 mm, 103,5000 mm): Reference 'R1'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(147,3800 mm, 96,9050 mm): Segment on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(154,6200 mm, 93,0950 mm): Segment on F.Silkscreen
+[text_thickness]: Text thickness out of range (board setup constraints silk text thickness min thickness 0,0800 mm; actual 0,0605 mm)
+    Rule: board setup constraints silk text thickness; warning
+    @(146,0000 mm, 108,0000 mm): Reference 'C_INTVCC1'
+[text_height]: Text height out of range (board setup constraints silk text height min height 0,8000 mm; actual 0,2419 mm)
+    Rule: board setup constraints silk text height; warning
+    @(146,0000 mm, 108,0000 mm): Reference 'C_INTVCC1'
+
+** Found 0 unconnected pads **
+
+** Found 0 Footprint errors **
+
+** End of Report **

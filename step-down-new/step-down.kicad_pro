@@ -52,7 +52,13 @@
         }
       },
       "diff_pair_dimensions": [],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "clearance|132100000|104575000|5127827a-9943-4787-b987-18b6cc341c1a|78fb6191-6bf0-4172-bafe-5ed140d517f0",
+        "clearance|132125000|99075000|408f3e54-f64e-43bb-abbe-109bccf2ff29|99daec06-e050-4a74-b4b3-5376f7edcb39",
+        "clearance|132150000|100075000|0adafa25-1ba8-4eab-adb2-fbf7434bb833|997e98b2-e62f-441a-b2a3-8f4328c95c05",
+        "clearance|132575000|101125000|869f8a96-161e-45ec-bae0-22a0e95544b4|d3dcd62d-2f42-454b-8b0b-20a3964cf049",
+        "clearance|141425000|101125000|92c42890-f034-4ee5-96e7-c2cfb721be70|00755ad7-62d5-4297-8521-040dddd46090"
+      ],
       "meta": {
         "version": 2
       },
@@ -117,7 +123,7 @@
         "min_hole_to_hole": 0.25,
         "min_microvia_diameter": 0.2,
         "min_microvia_drill": 0.1,
-        "min_resolved_spokes": 2,
+        "min_resolved_spokes": 1,
         "min_silk_clearance": 0.0,
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
@@ -438,7 +444,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.2,
+        "clearance": 0.16,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -466,7 +472,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "gerber-drill/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
@@ -527,11 +533,53 @@
           "label": "DNP",
           "name": "${DNP}",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Height",
+          "name": "Height",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer_Name",
+          "name": "Manufacturer_Name",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer_Part_Number",
+          "name": "Manufacturer_Part_Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Mouser Part Number",
+          "name": "Mouser Part Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Mouser Price/Stock",
+          "name": "Mouser Price/Stock",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
-      "name": "Grouped By Value",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },
