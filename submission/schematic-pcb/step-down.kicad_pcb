@@ -76,7 +76,7 @@
 			(mirror no)
 			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "../../ekg-project-2/gerber/")
+			(outputdirectory "gerber-drill/")
 		)
 	)
 	(net 0 "")

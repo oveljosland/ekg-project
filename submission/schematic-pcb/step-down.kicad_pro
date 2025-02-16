@@ -472,7 +472,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "../../ekg-project-2/gerber/",
+      "plot": "gerber-drill/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
